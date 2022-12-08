@@ -1,11 +1,11 @@
 # patika.dev final project basics of python
-1- Bir listeyi düzleştiren (flatten) fonksiyon yazın. Elemanları birden çok katmanlı listelerden ([[3],2] gibi) oluşabileceği gibi, non-scalar verilerden de oluşabilir. Örnek olarak:
+1- Write a function that flattens a list. Its elements can be composed of multiple layered lists (such as [[3],2]) or non-scalar data. Example:
 
 input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
 output: [1,'a','cat',2,3,'dog',4,5]
 
-2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün. Örnek olarak:
+2- Write a function that inverts the elements in a given list. If the elements inside the list also contain a list, return their elements as well. For example:
 
 input: [[1, 2], [3, 4], [5, 6, 7]]
 
